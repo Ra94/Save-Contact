@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Save Ngwako Ralepelle's Contact</title>
+    <title>Click Below</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,20 +15,21 @@
             margin: 0;
             padding: 20px;
             text-align: center;
-            background-image: url('https://source.unsplash.com/1600x900/?technology');
+            background-image: url('https://source.unsplash.com/1600x900/?technology,dark');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed;
+            color: #e0e0e0;
         }
         .content {
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: rgba(30, 30, 30, 0.8);
             padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         }
         h1 {
-            color: #333;
+            color: #ffffff;
             margin-bottom: 20px;
         }
         button {
@@ -48,12 +49,12 @@
         #instructions {
             margin-top: 20px;
             font-size: 14px;
-            color: #333;
+            color: #e0e0e0;
             max-width: 300px;
-            background-color: rgba(255, 255, 255, 0.9);
+            background-color: rgba(40, 40, 40, 0.9);
             padding: 20px;
             border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
         }
         #instructions ol {
             text-align: left;
@@ -63,7 +64,7 @@
 </head>
 <body>
     <div class="content">
-        <h1>Save Ngwako Ralepelle's Contact</h1>
+        <h1>Click Below</h1>
         <button onclick="saveContact()">Save Contact</button>
         <div id="instructions" style="display: none;">
             <p>Contact file downloaded. Please follow these steps:</p>
@@ -74,7 +75,6 @@
             </ol>
         </div>
     </div>
-
     <script>
     function saveContact() {
         const contact = {
